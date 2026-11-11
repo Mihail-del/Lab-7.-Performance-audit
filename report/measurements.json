@@ -1,0 +1,4013 @@
+{
+  "conditions": {
+    "date": "2026-11-12",
+    "machine": "Mac16,8 / Apple M4 Pro / 24 GiB RAM",
+    "os": "macOS 26.6.2",
+    "chrome": "157.0.8103.40",
+    "lighthouse": "13.6.0",
+    "mode": "headless, separate incognito contexts, no extensions",
+    "cpuSlowdown": 4,
+    "network": {
+      "downloadMbps": 10,
+      "uploadMbps": 5,
+      "latencyMs": 40
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1
+    },
+    "cache": "cold load; interactions after images finish; unmeasured preparation without throttling",
+    "build": "production / npm run build + npm run preview",
+    "sourceCommit": "d8ebd59",
+    "search": "м → ма → мат → мате → матем → матема → математ → математи → математик → математика; 100 ms pause after each update",
+    "favorite": "first card, one add-to-favorites click",
+    "scroll": "start y=700; 12 steps of +150px with 80ms pauses"
+  },
+  "stages": {
+    "baseline": {
+      "browser": "157.0.8103.40",
+      "cpu": 4,
+      "network": {
+        "latency": 40,
+        "downloadMbps": 10,
+        "uploadMbps": 5
+      },
+      "viewport": [
+        1440,
+        1000
+      ],
+      "results": {
+        "load": [
+          {
+            "lcp": 9044,
+            "cls": 0.5811848958333333,
+            "longestTask": 2455,
+            "blocking": 4841,
+            "longTasks": 19,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 1994.1019999999999,
+            "layoutCount": 54,
+            "styleMs": 173.52899999999997,
+            "cpuTop": [
+              [
+                "(idle)",
+                9617.733999999997
+              ],
+              [
+                "(program)",
+                6100.9790000000885
+              ],
+              [
+                "(anonymous)",
+                3910.4030000000025
+              ],
+              [
+                "requestAnimationFrame",
+                1334.0490000000016
+              ],
+              [
+                "ec",
+                813.4089999999995
+              ],
+              [
+                "Fu",
+                235.51799999999994
+              ],
+              [
+                "(garbage collector)",
+                99.61799999999998
+              ],
+              [
+                "query",
+                46.948999999999984
+              ],
+              [
+                "Lf",
+                45.54699999999999
+              ],
+              [
+                "$e",
+                43.105000000000004
+              ],
+              [
+                "collectRoots",
+                42.821000000000005
+              ],
+              [
+                "appendChild",
+                40.83600000000001
+              ],
+              [
+                "O",
+                33.895999999999994
+              ],
+              [
+                "Fd",
+                23.284
+              ],
+              [
+                "createElement",
+                20.911
+              ],
+              [
+                "wd",
+                18.619
+              ],
+              [
+                "$d",
+                16.108
+              ],
+              [
+                "ma",
+                16.094
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 9040,
+            "cls": 0.5811848958333333,
+            "longestTask": 2451,
+            "blocking": 4833,
+            "longTasks": 19,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 1985.7610000000002,
+            "layoutCount": 54,
+            "styleMs": 167.09899999999996,
+            "cpuTop": [
+              [
+                "(idle)",
+                9601.573000000015
+              ],
+              [
+                "(program)",
+                5925.70700000008
+              ],
+              [
+                "(anonymous)",
+                3790.3050000000017
+              ],
+              [
+                "requestAnimationFrame",
+                1313.0109999999997
+              ],
+              [
+                "ec",
+                821.2190000000004
+              ],
+              [
+                "Fu",
+                218.99900000000014
+              ],
+              [
+                "(garbage collector)",
+                171.5050000000001
+              ],
+              [
+                "$e",
+                56.086000000000006
+              ],
+              [
+                "Lf",
+                53.228999999999985
+              ],
+              [
+                "query",
+                50.219
+              ],
+              [
+                "appendChild",
+                42.93
+              ],
+              [
+                "O",
+                36.827000000000005
+              ],
+              [
+                "collectRoots",
+                35.947
+              ],
+              [
+                "qa",
+                25.817
+              ],
+              [
+                "Fd",
+                22.399
+              ],
+              [
+                "xa",
+                17.843000000000004
+              ],
+              [
+                "createElement",
+                17.669
+              ],
+              [
+                "$d",
+                16.638
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 9040,
+            "cls": 0.5811848958333333,
+            "longestTask": 2461,
+            "blocking": 4813,
+            "longTasks": 19,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 2014.4080000000004,
+            "layoutCount": 54,
+            "styleMs": 164.33300000000003,
+            "cpuTop": [
+              [
+                "(idle)",
+                9532.608000000035
+              ],
+              [
+                "(program)",
+                5907.345000000054
+              ],
+              [
+                "(anonymous)",
+                3965.180000000002
+              ],
+              [
+                "requestAnimationFrame",
+                1306.4009999999982
+              ],
+              [
+                "ec",
+                807.801
+              ],
+              [
+                "Fu",
+                233.71
+              ],
+              [
+                "(garbage collector)",
+                138.155
+              ],
+              [
+                "Lf",
+                57.447
+              ],
+              [
+                "query",
+                50.29600000000001
+              ],
+              [
+                "appendChild",
+                43.54200000000001
+              ],
+              [
+                "collectRoots",
+                39.982
+              ],
+              [
+                "$e",
+                37.00300000000001
+              ],
+              [
+                "O",
+                34.98799999999999
+              ],
+              [
+                "Fd",
+                22.516
+              ],
+              [
+                "qa",
+                18.852999999999998
+              ],
+              [
+                "Mn",
+                18.587
+              ],
+              [
+                "xa",
+                15.335
+              ],
+              [
+                "ma",
+                15.089999999999996
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "search": [
+          {
+            "lcp": 584,
+            "cls": 0.3579327759617935,
+            "longestTask": 857,
+            "blocking": 2845,
+            "longTasks": 10,
+            "eventDuration": 960,
+            "resourceBytes": 23009134,
+            "cards": 340,
+            "layoutMs": 608.0490000000002,
+            "layoutCount": 97,
+            "styleMs": 22.664999999999996,
+            "cpuTop": [
+              [
+                "recommended",
+                1322.0169999999996
+              ],
+              [
+                "(idle)",
+                1127.8310000000001
+              ],
+              [
+                "(program)",
+                992.3350000000011
+              ],
+              [
+                "(anonymous)",
+                518.8589999999997
+              ],
+              [
+                "$d",
+                407.5599999999997
+              ],
+              [
+                "Ll",
+                155.93699999999993
+              ],
+              [
+                "getAriaRole",
+                142.51999999999998
+              ],
+              [
+                "getBoundingClientRect",
+                104.90199999999997
+              ],
+              [
+                "query",
+                84.81699999999998
+              ],
+              [
+                "removeChild",
+                68.73299999999999
+              ],
+              [
+                "remove",
+                62.36499999999998
+              ],
+              [
+                "add",
+                57.61099999999999
+              ],
+              [
+                "getAttribute",
+                47.11600000000001
+              ],
+              [
+                "xd",
+                41.024
+              ],
+              [
+                "elementSafeTagName",
+                37.658
+              ],
+              [
+                "O",
+                37.59
+              ],
+              [
+                "la",
+                30.691000000000003
+              ],
+              [
+                "match",
+                30.466
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 560,
+            "cls": 0.3579327759617935,
+            "longestTask": 866,
+            "blocking": 2760,
+            "longTasks": 10,
+            "eventDuration": 976,
+            "resourceBytes": 23009134,
+            "cards": 340,
+            "layoutMs": 612.003,
+            "layoutCount": 97,
+            "styleMs": 27.72199999999999,
+            "cpuTop": [
+              [
+                "recommended",
+                1331.1960000000022
+              ],
+              [
+                "(idle)",
+                1099.732999999999
+              ],
+              [
+                "(program)",
+                985.7219999999983
+              ],
+              [
+                "(anonymous)",
+                530.8590000000003
+              ],
+              [
+                "$d",
+                428.72299999999984
+              ],
+              [
+                "Ll",
+                178.361
+              ],
+              [
+                "getBoundingClientRect",
+                122.25000000000001
+              ],
+              [
+                "getAriaRole",
+                119.04899999999998
+              ],
+              [
+                "query",
+                88.47199999999998
+              ],
+              [
+                "removeChild",
+                62.23400000000002
+              ],
+              [
+                "add",
+                55.227000000000004
+              ],
+              [
+                "remove",
+                50.303999999999995
+              ],
+              [
+                "xd",
+                46.646
+              ],
+              [
+                "match",
+                45.24399999999999
+              ],
+              [
+                "getExplicitAriaRole",
+                33.957
+              ],
+              [
+                "Lf",
+                33.359
+              ],
+              [
+                "oa",
+                33.039
+              ],
+              [
+                "elementSafeTagName",
+                33.019
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 564,
+            "cls": 0.3579327759617935,
+            "longestTask": 976,
+            "blocking": 2933,
+            "longTasks": 10,
+            "eventDuration": 960,
+            "resourceBytes": 23009134,
+            "cards": 340,
+            "layoutMs": 606.3470000000002,
+            "layoutCount": 97,
+            "styleMs": 24.579000000000008,
+            "cpuTop": [
+              [
+                "recommended",
+                1306.7960000000014
+              ],
+              [
+                "(idle)",
+                1105.8349999999994
+              ],
+              [
+                "(program)",
+                960.9699999999995
+              ],
+              [
+                "(anonymous)",
+                542.0169999999996
+              ],
+              [
+                "$d",
+                416.4940000000001
+              ],
+              [
+                "Ll",
+                162.12300000000005
+              ],
+              [
+                "getAriaRole",
+                132.948
+              ],
+              [
+                "getBoundingClientRect",
+                110.41399999999999
+              ],
+              [
+                "query",
+                76.659
+              ],
+              [
+                "removeChild",
+                66.631
+              ],
+              [
+                "remove",
+                58.99799999999999
+              ],
+              [
+                "add",
+                58.17099999999999
+              ],
+              [
+                "la",
+                42.792
+              ],
+              [
+                "xd",
+                41.96299999999999
+              ],
+              [
+                "getExplicitAriaRole",
+                38.42400000000001
+              ],
+              [
+                "O",
+                36.723
+              ],
+              [
+                "elementSafeTagName",
+                36.251000000000005
+              ],
+              [
+                "match",
+                34.105
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "favorite": [
+          {
+            "lcp": 560,
+            "cls": 0,
+            "longestTask": 890,
+            "blocking": 840,
+            "longTasks": 1,
+            "eventDuration": 992,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 141.345,
+            "layoutCount": 10,
+            "styleMs": 9.305,
+            "cpuTop": [
+              [
+                "(program)",
+                563.1730000000001
+              ],
+              [
+                "(idle)",
+                462.2659999999998
+              ],
+              [
+                "recommended",
+                393.844
+              ],
+              [
+                "(anonymous)",
+                151.93399999999994
+              ],
+              [
+                "$d",
+                121.49199999999999
+              ],
+              [
+                "elementsFromPoint",
+                34.952
+              ],
+              [
+                "(garbage collector)",
+                19.792999999999996
+              ],
+              [
+                "Lf",
+                18.84
+              ],
+              [
+                "elementFromPoint",
+                15.16
+              ],
+              [
+                "getBoundingClientRect",
+                13.966000000000001
+              ],
+              [
+                "O",
+                11.296999999999999
+              ],
+              [
+                "la",
+                9.975999999999999
+              ],
+              [
+                "querySelectorAll",
+                9.829999999999998
+              ],
+              [
+                "add",
+                5.721
+              ],
+              [
+                "da",
+                4.924
+              ],
+              [
+                "ba",
+                4.865
+              ],
+              [
+                "at",
+                4.428000000000001
+              ],
+              [
+                "remove",
+                4.271
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 560,
+            "cls": 0,
+            "longestTask": 917,
+            "blocking": 867,
+            "longTasks": 1,
+            "eventDuration": 976,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 142.89200000000002,
+            "layoutCount": 10,
+            "styleMs": 8.8,
+            "cpuTop": [
+              [
+                "(program)",
+                541.9530000000001
+              ],
+              [
+                "(idle)",
+                449.52099999999973
+              ],
+              [
+                "recommended",
+                395.2920000000001
+              ],
+              [
+                "(anonymous)",
+                153.51099999999994
+              ],
+              [
+                "$d",
+                124.26599999999998
+              ],
+              [
+                "elementsFromPoint",
+                31.756999999999998
+              ],
+              [
+                "(garbage collector)",
+                20.751
+              ],
+              [
+                "elementFromPoint",
+                17.880000000000006
+              ],
+              [
+                "Lf",
+                17.215999999999998
+              ],
+              [
+                "getBoundingClientRect",
+                12.439
+              ],
+              [
+                "Ca",
+                7.882
+              ],
+              [
+                "la",
+                7.714999999999999
+              ],
+              [
+                "add",
+                7.23
+              ],
+              [
+                "O",
+                6.4510000000000005
+              ],
+              [
+                "da",
+                6.401000000000001
+              ],
+              [
+                "L",
+                5.211
+              ],
+              [
+                "remove",
+                5.156000000000001
+              ],
+              [
+                "kl",
+                5.0120000000000005
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 556,
+            "cls": 0,
+            "longestTask": 931,
+            "blocking": 881,
+            "longTasks": 1,
+            "eventDuration": 992,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 148.892,
+            "layoutCount": 10,
+            "styleMs": 5.8069999999999995,
+            "cpuTop": [
+              [
+                "(program)",
+                565.7939999999991
+              ],
+              [
+                "(idle)",
+                435.3479999999998
+              ],
+              [
+                "recommended",
+                399.2750000000001
+              ],
+              [
+                "(anonymous)",
+                157.16100000000012
+              ],
+              [
+                "$d",
+                106.93000000000002
+              ],
+              [
+                "elementsFromPoint",
+                33.885000000000005
+              ],
+              [
+                "(garbage collector)",
+                24.496
+              ],
+              [
+                "O",
+                18.096
+              ],
+              [
+                "elementFromPoint",
+                15.225000000000001
+              ],
+              [
+                "getBoundingClientRect",
+                11.675
+              ],
+              [
+                "querySelectorAll",
+                7.946
+              ],
+              [
+                "la",
+                7.502
+              ],
+              [
+                "Wt",
+                6.873
+              ],
+              [
+                "kl",
+                6.6419999999999995
+              ],
+              [
+                "da",
+                6.264
+              ],
+              [
+                "Ou",
+                6.074
+              ],
+              [
+                "remove",
+                5.658
+              ],
+              [
+                "L",
+                5.453
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "scroll": [
+          {
+            "lcp": 564,
+            "cls": 0.0009988123161410107,
+            "longestTask": 452,
+            "blocking": 3760,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 3089.8819999999996,
+            "layoutCount": 198,
+            "styleMs": 39.666000000000004,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                2726.894000000008
+              ],
+              [
+                "(program)",
+                1328.7900000000016
+              ],
+              [
+                "(idle)",
+                791.6199999999998
+              ],
+              [
+                "getBoundingClientRect",
+                271.42899999999975
+              ],
+              [
+                "add",
+                150.63500000000005
+              ],
+              [
+                "remove",
+                142.23199999999994
+              ],
+              [
+                "toggle",
+                20.598
+              ],
+              [
+                "querySelectorAll",
+                13.283000000000001
+              ],
+              [
+                "Vd",
+                8.198
+              ],
+              [
+                "y",
+                7.056
+              ],
+              [
+                "closest",
+                -0.036
+              ],
+              [
+                "scrollBy",
+                -0.105
+              ],
+              [
+                "innerSerialize",
+                -0.359
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 560,
+            "cls": 0.0009988123161410107,
+            "longestTask": 455,
+            "blocking": 3747,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 3092.1320000000005,
+            "layoutCount": 198,
+            "styleMs": 42.05199999999998,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                2738.293000000006
+              ],
+              [
+                "(program)",
+                1316.6490000000001
+              ],
+              [
+                "(idle)",
+                844.1909999999991
+              ],
+              [
+                "getBoundingClientRect",
+                267.93
+              ],
+              [
+                "add",
+                146.02100000000002
+              ],
+              [
+                "remove",
+                138.23799999999994
+              ],
+              [
+                "toggle",
+                19.107
+              ],
+              [
+                "querySelectorAll",
+                12.390999999999998
+              ],
+              [
+                "Vd",
+                8.346
+              ],
+              [
+                "y",
+                6.971
+              ],
+              [
+                "scrollBy",
+                -0.155
+              ],
+              [
+                "innerSerialize",
+                -0.434
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 564,
+            "cls": 0.0009988123161410107,
+            "longestTask": 453,
+            "blocking": 3669,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009134,
+            "cards": 2000,
+            "layoutMs": 3010.7070000000012,
+            "layoutCount": 198,
+            "styleMs": 39.339999999999996,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                2656.8719999999976
+              ],
+              [
+                "(program)",
+                1318.9100000000003
+              ],
+              [
+                "(idle)",
+                783.2139999999993
+              ],
+              [
+                "getBoundingClientRect",
+                243.00600000000006
+              ],
+              [
+                "add",
+                145.73100000000002
+              ],
+              [
+                "remove",
+                145.15699999999998
+              ],
+              [
+                "toggle",
+                19.557
+              ],
+              [
+                "querySelectorAll",
+                16.899
+              ],
+              [
+                "Vd",
+                13.740000000000002
+              ],
+              [
+                "y",
+                9.761
+              ],
+              [
+                "evaluate",
+                1.4789999999999999
+              ],
+              [
+                "serialize",
+                1.349
+              ],
+              [
+                "isDate",
+                0.958
+              ]
+            ],
+            "run": 3
+          }
+        ]
+      }
+    },
+    "scores": {
+      "browser": "157.0.8103.40",
+      "cpu": 4,
+      "network": {
+        "latency": 40,
+        "downloadMbps": 10,
+        "uploadMbps": 5
+      },
+      "viewport": [
+        1440,
+        1000
+      ],
+      "results": {
+        "search": [
+          {
+            "lcp": 532,
+            "cls": 0.3579327759617935,
+            "longestTask": 510,
+            "blocking": 1769,
+            "longTasks": 10,
+            "eventDuration": 576,
+            "resourceBytes": 23009159,
+            "cards": 340,
+            "layoutMs": 682.1109999999998,
+            "layoutCount": 97,
+            "styleMs": 27.247999999999994,
+            "cpuTop": [
+              [
+                "(idle)",
+                1098.2599999999989
+              ],
+              [
+                "(program)",
+                1045.5889999999986
+              ],
+              [
+                "(anonymous)",
+                605.2780000000001
+              ],
+              [
+                "$d",
+                436.48199999999997
+              ],
+              [
+                "Ll",
+                196.4649999999999
+              ],
+              [
+                "getAriaRole",
+                160.37000000000003
+              ],
+              [
+                "getBoundingClientRect",
+                131.10900000000004
+              ],
+              [
+                "query",
+                98.898
+              ],
+              [
+                "qa",
+                86.85799999999999
+              ],
+              [
+                "removeChild",
+                67.43399999999998
+              ],
+              [
+                "add",
+                58.66099999999997
+              ],
+              [
+                "P",
+                58.154999999999994
+              ],
+              [
+                "remove",
+                54.599
+              ],
+              [
+                "Sd",
+                42.543
+              ],
+              [
+                "getAttribute",
+                37.516
+              ],
+              [
+                "zf",
+                36.19500000000001
+              ],
+              [
+                "parentElementOrShadowHost",
+                35.453
+              ],
+              [
+                "match",
+                34.316
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 492,
+            "cls": 0.3579327759617935,
+            "longestTask": 484,
+            "blocking": 1704,
+            "longTasks": 10,
+            "eventDuration": 600,
+            "resourceBytes": 23009159,
+            "cards": 340,
+            "layoutMs": 708.6830000000003,
+            "layoutCount": 97,
+            "styleMs": 36.881,
+            "cpuTop": [
+              [
+                "(idle)",
+                1063.6469999999986
+              ],
+              [
+                "(program)",
+                1032.955
+              ],
+              [
+                "(anonymous)",
+                637.0620000000002
+              ],
+              [
+                "$d",
+                409.22600000000034
+              ],
+              [
+                "Ll",
+                173.21500000000003
+              ],
+              [
+                "getAriaRole",
+                154.24700000000004
+              ],
+              [
+                "getBoundingClientRect",
+                126.76399999999995
+              ],
+              [
+                "query",
+                97.439
+              ],
+              [
+                "qa",
+                92.95400000000001
+              ],
+              [
+                "removeChild",
+                71.29400000000003
+              ],
+              [
+                "P",
+                57.56099999999999
+              ],
+              [
+                "add",
+                57.49200000000002
+              ],
+              [
+                "Sd",
+                54.409000000000006
+              ],
+              [
+                "remove",
+                53.11000000000001
+              ],
+              [
+                "getExplicitAriaRole",
+                42.91399999999999
+              ],
+              [
+                "elementSafeTagName",
+                42.669999999999995
+              ],
+              [
+                "zf",
+                40.498000000000005
+              ],
+              [
+                "match",
+                35.535
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 496,
+            "cls": 0.3579327759617935,
+            "longestTask": 505,
+            "blocking": 1665,
+            "longTasks": 10,
+            "eventDuration": 616,
+            "resourceBytes": 23009159,
+            "cards": 340,
+            "layoutMs": 693.503,
+            "layoutCount": 97,
+            "styleMs": 25.241999999999994,
+            "cpuTop": [
+              [
+                "(idle)",
+                1095.8170000000005
+              ],
+              [
+                "(program)",
+                1054.3939999999996
+              ],
+              [
+                "(anonymous)",
+                568.7940000000003
+              ],
+              [
+                "$d",
+                450.08300000000037
+              ],
+              [
+                "Ll",
+                176.752
+              ],
+              [
+                "getAriaRole",
+                153.30400000000006
+              ],
+              [
+                "getBoundingClientRect",
+                152.729
+              ],
+              [
+                "query",
+                100.75900000000004
+              ],
+              [
+                "qa",
+                89.189
+              ],
+              [
+                "removeChild",
+                71.64399999999999
+              ],
+              [
+                "add",
+                63.91600000000001
+              ],
+              [
+                "remove",
+                56.950999999999986
+              ],
+              [
+                "match",
+                53.31200000000001
+              ],
+              [
+                "Sd",
+                49.29999999999999
+              ],
+              [
+                "getAttribute",
+                43.773
+              ],
+              [
+                "P",
+                42.039
+              ],
+              [
+                "getExplicitAriaRole",
+                37.384
+              ],
+              [
+                "zf",
+                35.328
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "favorite": [
+          {
+            "lcp": 496,
+            "cls": 0,
+            "longestTask": 623,
+            "blocking": 573,
+            "longTasks": 1,
+            "eventDuration": 704,
+            "resourceBytes": 23009159,
+            "cards": 2000,
+            "layoutMs": 186.318,
+            "layoutCount": 10,
+            "styleMs": 9.121000000000002,
+            "cpuTop": [
+              [
+                "(program)",
+                647.1950000000002
+              ],
+              [
+                "(idle)",
+                459.13199999999995
+              ],
+              [
+                "(anonymous)",
+                203.42999999999992
+              ],
+              [
+                "$d",
+                124.52400000000007
+              ],
+              [
+                "elementsFromPoint",
+                39.59799999999999
+              ],
+              [
+                "qa",
+                20.871
+              ],
+              [
+                "elementFromPoint",
+                20.413
+              ],
+              [
+                "P",
+                19.580000000000002
+              ],
+              [
+                "getBoundingClientRect",
+                13.12
+              ],
+              [
+                "la",
+                10.146999999999998
+              ],
+              [
+                "querySelectorAll",
+                10.126999999999999
+              ],
+              [
+                "zf",
+                10.100999999999999
+              ],
+              [
+                "da",
+                10.079999999999998
+              ],
+              [
+                "Wt",
+                8.486
+              ],
+              [
+                "kl",
+                6.668
+              ],
+              [
+                "add",
+                6.616
+              ],
+              [
+                "Uf",
+                5.289
+              ],
+              [
+                "pe",
+                4.958
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 520,
+            "cls": 0,
+            "longestTask": 579,
+            "blocking": 529,
+            "longTasks": 1,
+            "eventDuration": 664,
+            "resourceBytes": 23009159,
+            "cards": 2000,
+            "layoutMs": 156.477,
+            "layoutCount": 10,
+            "styleMs": 7.938000000000001,
+            "cpuTop": [
+              [
+                "(program)",
+                598.9540000000007
+              ],
+              [
+                "(idle)",
+                462.7909999999999
+              ],
+              [
+                "(anonymous)",
+                176.272
+              ],
+              [
+                "$d",
+                114.81199999999998
+              ],
+              [
+                "elementsFromPoint",
+                36.594
+              ],
+              [
+                "qa",
+                25.42300000000001
+              ],
+              [
+                "elementFromPoint",
+                17.749000000000002
+              ],
+              [
+                "P",
+                15.929
+              ],
+              [
+                "getBoundingClientRect",
+                15.895
+              ],
+              [
+                "la",
+                12.667
+              ],
+              [
+                "Ca",
+                10.785
+              ],
+              [
+                "querySelectorAll",
+                9.188
+              ],
+              [
+                "da",
+                9.125
+              ],
+              [
+                "zf",
+                7.268000000000001
+              ],
+              [
+                "kl",
+                7.008
+              ],
+              [
+                "R",
+                5.684
+              ],
+              [
+                "add",
+                5.561
+              ],
+              [
+                "pe",
+                4.747
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 500,
+            "cls": 0,
+            "longestTask": 637,
+            "blocking": 587,
+            "longTasks": 1,
+            "eventDuration": 712,
+            "resourceBytes": 23009159,
+            "cards": 2000,
+            "layoutMs": 191.831,
+            "layoutCount": 10,
+            "styleMs": 8.393,
+            "cpuTop": [
+              [
+                "(program)",
+                612.8959999999997
+              ],
+              [
+                "(idle)",
+                442.5340000000002
+              ],
+              [
+                "(anonymous)",
+                200.712
+              ],
+              [
+                "$d",
+                113.21600000000001
+              ],
+              [
+                "elementsFromPoint",
+                37.675
+              ],
+              [
+                "qa",
+                25.121
+              ],
+              [
+                "getBoundingClientRect",
+                17.322
+              ],
+              [
+                "elementFromPoint",
+                16.708000000000002
+              ],
+              [
+                "P",
+                15.815000000000001
+              ],
+              [
+                "zf",
+                14.153999999999998
+              ],
+              [
+                "kl",
+                12.353
+              ],
+              [
+                "querySelectorAll",
+                10.729
+              ],
+              [
+                "la",
+                10.443
+              ],
+              [
+                "da",
+                7.4270000000000005
+              ],
+              [
+                "Ca",
+                7.157000000000001
+              ],
+              [
+                "add",
+                7.053
+              ],
+              [
+                "remove",
+                6.385999999999999
+              ],
+              [
+                "Wt",
+                6.054
+              ]
+            ],
+            "run": 3
+          }
+        ]
+      }
+    },
+    "renders": {
+      "browser": "157.0.8103.40",
+      "cpu": 4,
+      "network": {
+        "latency": 40,
+        "downloadMbps": 10,
+        "uploadMbps": 5
+      },
+      "viewport": [
+        1440,
+        1000
+      ],
+      "results": {
+        "favorite": [
+          {
+            "lcp": 528,
+            "cls": 0,
+            "longestTask": 196,
+            "blocking": 146,
+            "longTasks": 1,
+            "eventDuration": 272,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 27.39,
+            "layoutCount": 2,
+            "styleMs": 7.234999999999999,
+            "cpuTop": [
+              [
+                "(program)",
+                594.1669999999996
+              ],
+              [
+                "(idle)",
+                441.0809999999997
+              ],
+              [
+                "(anonymous)",
+                43.67499999999999
+              ],
+              [
+                "elementsFromPoint",
+                42.897999999999996
+              ],
+              [
+                "elementFromPoint",
+                19.266
+              ],
+              [
+                "querySelectorAll",
+                6.529999999999999
+              ],
+              [
+                "t",
+                2.466
+              ],
+              [
+                "Hd",
+                2.3049999999999997
+              ],
+              [
+                "dispatchEvent",
+                1.9769999999999999
+              ],
+              [
+                "evaluate",
+                1.9329999999999998
+              ],
+              [
+                "serialize",
+                1.668
+              ],
+              [
+                "P",
+                1.645
+              ],
+              [
+                "ql",
+                1.593
+              ],
+              [
+                "isNativelyDisabled",
+                1.356
+              ],
+              [
+                "(garbage collector)",
+                1.219
+              ],
+              [
+                "_cached",
+                1.205
+              ],
+              [
+                "getEntries",
+                1.168
+              ],
+              [
+                "Mn",
+                1.159
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 500,
+            "cls": 0,
+            "longestTask": 191,
+            "blocking": 141,
+            "longTasks": 1,
+            "eventDuration": 264,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 29.369,
+            "layoutCount": 2,
+            "styleMs": 5.943999999999999,
+            "cpuTop": [
+              [
+                "(program)",
+                576.1499999999997
+              ],
+              [
+                "(idle)",
+                433.75799999999936
+              ],
+              [
+                "(anonymous)",
+                44.297
+              ],
+              [
+                "elementsFromPoint",
+                42.57099999999999
+              ],
+              [
+                "elementFromPoint",
+                17.985000000000003
+              ],
+              [
+                "querySelectorAll",
+                9.933
+              ],
+              [
+                "Hd",
+                2.146
+              ],
+              [
+                "evaluate",
+                2.107
+              ],
+              [
+                "P",
+                1.963
+              ],
+              [
+                "dispatchEvent",
+                1.926
+              ],
+              [
+                "retarget",
+                1.805
+              ],
+              [
+                "PerformanceObserver.observe.type",
+                1.525
+              ],
+              [
+                "a",
+                1.466
+              ],
+              [
+                "previewNode",
+                1.425
+              ],
+              [
+                "da",
+                1.396
+              ],
+              [
+                "Hl",
+                1.378
+              ],
+              [
+                "Fu",
+                1.272
+              ],
+              [
+                "getImplicitAriaRole",
+                1.259
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 500,
+            "cls": 0,
+            "longestTask": 187,
+            "blocking": 137,
+            "longTasks": 1,
+            "eventDuration": 256,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 28.734,
+            "layoutCount": 2,
+            "styleMs": 8.236,
+            "cpuTop": [
+              [
+                "(program)",
+                573.503
+              ],
+              [
+                "(idle)",
+                440.77299999999985
+              ],
+              [
+                "elementsFromPoint",
+                43.16499999999999
+              ],
+              [
+                "(anonymous)",
+                40.12800000000001
+              ],
+              [
+                "elementFromPoint",
+                21.16
+              ],
+              [
+                "querySelectorAll",
+                9.154
+              ],
+              [
+                "a",
+                2.505
+              ],
+              [
+                "da",
+                1.297
+              ],
+              [
+                "hasExplicitAriaDisabled",
+                1.246
+              ],
+              [
+                "Hd",
+                1.21
+              ],
+              [
+                "$i",
+                1.207
+              ],
+              [
+                "getEntries",
+                1.206
+              ],
+              [
+                "check",
+                1.055
+              ],
+              [
+                "requestAnimationFrame",
+                1.043
+              ],
+              [
+                "callMatchedElements",
+                1.024
+              ],
+              [
+                "expectHitTarget",
+                1.001
+              ],
+              [
+                "Gs",
+                0.984
+              ],
+              [
+                "dispatchEvent",
+                0.944
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "search": [
+          {
+            "lcp": 508,
+            "cls": 0.3579327759617935,
+            "longestTask": 271,
+            "blocking": 923,
+            "longTasks": 10,
+            "eventDuration": 384,
+            "resourceBytes": 23009254,
+            "cards": 340,
+            "layoutMs": 645.9069999999999,
+            "layoutCount": 97,
+            "styleMs": 29.242999999999988,
+            "cpuTop": [
+              [
+                "(idle)",
+                1094.8500000000004
+              ],
+              [
+                "(program)",
+                968.6799999999994
+              ],
+              [
+                "(anonymous)",
+                576.8510000000005
+              ],
+              [
+                "Ll",
+                168.243
+              ],
+              [
+                "getAriaRole",
+                154.52499999999986
+              ],
+              [
+                "getBoundingClientRect",
+                111.09400000000001
+              ],
+              [
+                "qa",
+                91.87100000000001
+              ],
+              [
+                "query",
+                86.01799999999997
+              ],
+              [
+                "removeChild",
+                72.04199999999997
+              ],
+              [
+                "add",
+                59.08099999999998
+              ],
+              [
+                "remove",
+                57.98
+              ],
+              [
+                "Sd",
+                54.511
+              ],
+              [
+                "match",
+                51.792000000000016
+              ],
+              [
+                "getExplicitAriaRole",
+                45.03000000000002
+              ],
+              [
+                "elementSafeTagName",
+                32.306999999999995
+              ],
+              [
+                "getAttribute",
+                31.593999999999994
+              ],
+              [
+                "parentElementOrShadowHost",
+                29.763
+              ],
+              [
+                "querySelectorAll",
+                26.808999999999997
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 492,
+            "cls": 0.3579327759617935,
+            "longestTask": 266,
+            "blocking": 936,
+            "longTasks": 10,
+            "eventDuration": 376,
+            "resourceBytes": 23009254,
+            "cards": 340,
+            "layoutMs": 682.7849999999995,
+            "layoutCount": 97,
+            "styleMs": 24.122,
+            "cpuTop": [
+              [
+                "(idle)",
+                1103.5109999999984
+              ],
+              [
+                "(program)",
+                966.6949999999986
+              ],
+              [
+                "(anonymous)",
+                603.4110000000002
+              ],
+              [
+                "Ll",
+                184.57500000000016
+              ],
+              [
+                "getAriaRole",
+                153.07099999999994
+              ],
+              [
+                "getBoundingClientRect",
+                120.74200000000002
+              ],
+              [
+                "query",
+                99.936
+              ],
+              [
+                "qa",
+                93.38500000000002
+              ],
+              [
+                "removeChild",
+                68.914
+              ],
+              [
+                "add",
+                53.26499999999999
+              ],
+              [
+                "remove",
+                51.666
+              ],
+              [
+                "Sd",
+                45.594999999999985
+              ],
+              [
+                "getAttribute",
+                42.418
+              ],
+              [
+                "getExplicitAriaRole",
+                38.906
+              ],
+              [
+                "elementSafeTagName",
+                34.441
+              ],
+              [
+                "match",
+                28.747999999999998
+              ],
+              [
+                "querySelectorAll",
+                27.285999999999998
+              ],
+              [
+                "oa",
+                20.956000000000003
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 496,
+            "cls": 0.3579327759617935,
+            "longestTask": 256,
+            "blocking": 824,
+            "longTasks": 10,
+            "eventDuration": 368,
+            "resourceBytes": 23009254,
+            "cards": 340,
+            "layoutMs": 627.2350000000001,
+            "layoutCount": 97,
+            "styleMs": 31.651999999999997,
+            "cpuTop": [
+              [
+                "(idle)",
+                1099.2319999999995
+              ],
+              [
+                "(program)",
+                978.4019999999998
+              ],
+              [
+                "(anonymous)",
+                557.3099999999987
+              ],
+              [
+                "Ll",
+                197.11100000000008
+              ],
+              [
+                "getAriaRole",
+                139.705
+              ],
+              [
+                "getBoundingClientRect",
+                113.51000000000002
+              ],
+              [
+                "query",
+                92.81999999999998
+              ],
+              [
+                "qa",
+                90.13
+              ],
+              [
+                "removeChild",
+                70.44800000000001
+              ],
+              [
+                "remove",
+                54.90099999999999
+              ],
+              [
+                "add",
+                52.620000000000005
+              ],
+              [
+                "elementSafeTagName",
+                45.821000000000005
+              ],
+              [
+                "getExplicitAriaRole",
+                45.464
+              ],
+              [
+                "match",
+                41.54000000000001
+              ],
+              [
+                "getAttribute",
+                34.42400000000001
+              ],
+              [
+                "Sd",
+                33.605999999999995
+              ],
+              [
+                "querySelectorAll",
+                26.921999999999997
+              ],
+              [
+                "oa",
+                24.407999999999998
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "scroll": [
+          {
+            "lcp": 496,
+            "cls": 0.0009988123161410107,
+            "longestTask": 470,
+            "blocking": 4092,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 3365.6819999999993,
+            "layoutCount": 198,
+            "styleMs": 39.03399999999999,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                3018.3809999999985
+              ],
+              [
+                "(program)",
+                1342.7150000000004
+              ],
+              [
+                "(idle)",
+                920.5139999999994
+              ],
+              [
+                "getBoundingClientRect",
+                281.562
+              ],
+              [
+                "add",
+                145.16699999999997
+              ],
+              [
+                "remove",
+                143.70600000000005
+              ],
+              [
+                "toggle",
+                18.988
+              ],
+              [
+                "querySelectorAll",
+                10.698999999999998
+              ],
+              [
+                "g",
+                9.76
+              ],
+              [
+                "Vd",
+                4.550000000000001
+              ],
+              [
+                "scrollBy",
+                1.1059999999999999
+              ],
+              [
+                "innerSerialize",
+                0.904
+              ],
+              [
+                "closest",
+                -0.035
+              ],
+              [
+                "serialize",
+                -0.291
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 484,
+            "cls": 0.0009988123161410107,
+            "longestTask": 464,
+            "blocking": 4019,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 3299.6020000000008,
+            "layoutCount": 198,
+            "styleMs": 44.989999999999995,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                2955.4989999999993
+              ],
+              [
+                "(program)",
+                1335.861999999999
+              ],
+              [
+                "(idle)",
+                327.9449999999998
+              ],
+              [
+                "getBoundingClientRect",
+                273.6729999999998
+              ],
+              [
+                "add",
+                143.24399999999991
+              ],
+              [
+                "remove",
+                139.97200000000004
+              ],
+              [
+                "toggle",
+                18.119
+              ],
+              [
+                "querySelectorAll",
+                15.386
+              ],
+              [
+                "g",
+                15.122000000000002
+              ],
+              [
+                "Vd",
+                6.1850000000000005
+              ],
+              [
+                "serializeAsCallArgument",
+                0.931
+              ],
+              [
+                "evaluate",
+                -1.303
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 496,
+            "cls": 0.0009988123161410107,
+            "longestTask": 480,
+            "blocking": 4096,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009254,
+            "cards": 2000,
+            "layoutMs": 3364.1800000000007,
+            "layoutCount": 198,
+            "styleMs": 53.332999999999956,
+            "cpuTop": [
+              [
+                "(anonymous)",
+                3028.2869999999957
+              ],
+              [
+                "(program)",
+                1356.939999999996
+              ],
+              [
+                "(idle)",
+                775.7450000000002
+              ],
+              [
+                "getBoundingClientRect",
+                278.439
+              ],
+              [
+                "remove",
+                138.77
+              ],
+              [
+                "add",
+                136.095
+              ],
+              [
+                "toggle",
+                15.676999999999998
+              ],
+              [
+                "Vd",
+                12.201
+              ],
+              [
+                "g",
+                11.489
+              ],
+              [
+                "querySelectorAll",
+                8.870000000000001
+              ],
+              [
+                "PerformanceObserver.observe.type",
+                1.055
+              ],
+              [
+                "evaluate",
+                0.607
+              ],
+              [
+                "innerSerialize",
+                -0.092
+              ],
+              [
+                "scrollBy",
+                -0.32
+              ]
+            ],
+            "run": 3
+          }
+        ]
+      }
+    },
+    "layout": {
+      "browser": "157.0.8103.40",
+      "cpu": 4,
+      "network": {
+        "latency": 40,
+        "downloadMbps": 10,
+        "uploadMbps": 5
+      },
+      "viewport": [
+        1440,
+        1000
+      ],
+      "results": {
+        "scroll": [
+          {
+            "lcp": 484,
+            "cls": 0.0009988123161410107,
+            "longestTask": 210,
+            "blocking": 1091,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 571.639,
+            "layoutCount": 28,
+            "styleMs": 28.099,
+            "cpuTop": [
+              [
+                "(program)",
+                1286.0080000000014
+              ],
+              [
+                "(idle)",
+                1009.7849999999996
+              ],
+              [
+                "(anonymous)",
+                510.6840000000006
+              ],
+              [
+                "getBoundingClientRect",
+                118.001
+              ],
+              [
+                "add",
+                19.85
+              ],
+              [
+                "remove",
+                16.709000000000003
+              ],
+              [
+                "Vd",
+                13.808000000000002
+              ],
+              [
+                "toggle",
+                8.141
+              ],
+              [
+                "E",
+                3.3649999999999998
+              ],
+              [
+                "requestAnimationFrame",
+                2.482
+              ],
+              [
+                "querySelectorAll",
+                1.105
+              ],
+              [
+                "serialize",
+                -0.108
+              ],
+              [
+                "isTypedArray",
+                -0.122
+              ],
+              [
+                "scrollBy",
+                -1.4409999999999998
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 464,
+            "cls": 0.0009988123161410107,
+            "longestTask": 207,
+            "blocking": 1101,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 569.2230000000001,
+            "layoutCount": 28,
+            "styleMs": 30.826000000000008,
+            "cpuTop": [
+              [
+                "(program)",
+                1289.2719999999997
+              ],
+              [
+                "(idle)",
+                868.1109999999996
+              ],
+              [
+                "(anonymous)",
+                525.389
+              ],
+              [
+                "getBoundingClientRect",
+                111.24399999999997
+              ],
+              [
+                "remove",
+                17.717
+              ],
+              [
+                "Vd",
+                15.177999999999997
+              ],
+              [
+                "add",
+                13.195000000000002
+              ],
+              [
+                "toggle",
+                6.136
+              ],
+              [
+                "querySelectorAll",
+                2.646
+              ],
+              [
+                "E",
+                1.903
+              ],
+              [
+                "requestAnimationFrame",
+                1.193
+              ],
+              [
+                "PerformanceObserver.observe.type",
+                1.002
+              ],
+              [
+                "evaluate",
+                1.002
+              ],
+              [
+                "innerSerialize",
+                -0.11
+              ],
+              [
+                "serialize",
+                -0.128
+              ],
+              [
+                "scrollBy",
+                -0.424
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 476,
+            "cls": 0.0009988123161410107,
+            "longestTask": 212,
+            "blocking": 1050,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 538.328,
+            "layoutCount": 28,
+            "styleMs": 25.532,
+            "cpuTop": [
+              [
+                "(program)",
+                1286.9479999999999
+              ],
+              [
+                "(idle)",
+                873.1180000000013
+              ],
+              [
+                "(anonymous)",
+                482.45100000000025
+              ],
+              [
+                "getBoundingClientRect",
+                120.83000000000001
+              ],
+              [
+                "Vd",
+                16.432
+              ],
+              [
+                "add",
+                15.735000000000003
+              ],
+              [
+                "remove",
+                15.556000000000001
+              ],
+              [
+                "toggle",
+                7.0809999999999995
+              ],
+              [
+                "querySelectorAll",
+                1.951
+              ],
+              [
+                "serialize",
+                1.295
+              ],
+              [
+                "E",
+                1.0939999999999999
+              ],
+              [
+                "requestAnimationFrame",
+                0.6000000000000001
+              ],
+              [
+                "isTypedArray",
+                -0.181
+              ],
+              [
+                "evaluate",
+                -0.771
+              ],
+              [
+                "_promiseAwareJsonValueNoThrow",
+                -1.097
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "load": [
+          {
+            "lcp": 8188,
+            "cls": 0.5811848958333333,
+            "longestTask": 1724,
+            "blocking": 3305,
+            "longTasks": 18,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 1547.838,
+            "layoutCount": 25,
+            "styleMs": 160.21599999999995,
+            "cpuTop": [
+              [
+                "(idle)",
+                9948.094999999992
+              ],
+              [
+                "(program)",
+                6268.313000000064
+              ],
+              [
+                "(anonymous)",
+                3434.0490000000054
+              ],
+              [
+                "requestAnimationFrame",
+                1378.042999999997
+              ],
+              [
+                "Fu",
+                122.06200000000003
+              ],
+              [
+                "(garbage collector)",
+                65.273
+              ],
+              [
+                "$e",
+                60.18900000000001
+              ],
+              [
+                "appendChild",
+                56.146
+              ],
+              [
+                "query",
+                47.94100000000001
+              ],
+              [
+                "collectRoots",
+                45.60399999999999
+              ],
+              [
+                "zf",
+                40.104
+              ],
+              [
+                "Za",
+                27.647
+              ],
+              [
+                "qa",
+                25.491999999999997
+              ],
+              [
+                "Fd",
+                24.642
+              ],
+              [
+                "createElement",
+                17.892999999999997
+              ],
+              [
+                "querySelectorAll",
+                15.121999999999998
+              ],
+              [
+                "j",
+                14.501000000000001
+              ],
+              [
+                "xa",
+                13.914
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 8232,
+            "cls": 0.5811848958333333,
+            "longestTask": 1778,
+            "blocking": 3536,
+            "longTasks": 19,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 1653.719,
+            "layoutCount": 26,
+            "styleMs": 166.34199999999998,
+            "cpuTop": [
+              [
+                "(idle)",
+                9253.845000000001
+              ],
+              [
+                "(program)",
+                6665.94500000006
+              ],
+              [
+                "(anonymous)",
+                3846.9749999999976
+              ],
+              [
+                "requestAnimationFrame",
+                1348.8769999999995
+              ],
+              [
+                "Fu",
+                107.338
+              ],
+              [
+                "(garbage collector)",
+                60.18400000000001
+              ],
+              [
+                "$e",
+                47.24000000000001
+              ],
+              [
+                "query",
+                45.916000000000004
+              ],
+              [
+                "appendChild",
+                44.52399999999999
+              ],
+              [
+                "collectRoots",
+                43.114000000000004
+              ],
+              [
+                "zf",
+                42.299
+              ],
+              [
+                "Za",
+                26.657000000000004
+              ],
+              [
+                "Fd",
+                24.958
+              ],
+              [
+                "qa",
+                22.904
+              ],
+              [
+                "createElement",
+                20.679000000000002
+              ],
+              [
+                "j",
+                19.466999999999995
+              ],
+              [
+                "ma",
+                15.750000000000004
+              ],
+              [
+                "gd",
+                15.610000000000003
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 8436,
+            "cls": 0.5811848958333333,
+            "longestTask": 1805,
+            "blocking": 3407,
+            "longTasks": 18,
+            "eventDuration": 0,
+            "resourceBytes": 23009330,
+            "cards": 2000,
+            "layoutMs": 1641.983,
+            "layoutCount": 25,
+            "styleMs": 170.415,
+            "cpuTop": [
+              [
+                "(idle)",
+                9888.441000000019
+              ],
+              [
+                "(program)",
+                6307.692000000065
+              ],
+              [
+                "(anonymous)",
+                3542.0989999999874
+              ],
+              [
+                "requestAnimationFrame",
+                1375.4710000000014
+              ],
+              [
+                "Fu",
+                134.37900000000002
+              ],
+              [
+                "(garbage collector)",
+                67.66
+              ],
+              [
+                "$e",
+                52.726
+              ],
+              [
+                "query",
+                51.239999999999995
+              ],
+              [
+                "appendChild",
+                41.642999999999994
+              ],
+              [
+                "collectRoots",
+                38.755
+              ],
+              [
+                "zf",
+                35.361999999999995
+              ],
+              [
+                "Fd",
+                25.458000000000006
+              ],
+              [
+                "createElement",
+                23.258999999999997
+              ],
+              [
+                "qa",
+                22.544999999999995
+              ],
+              [
+                "Za",
+                19.073
+              ],
+              [
+                "xa",
+                16.401000000000003
+              ],
+              [
+                "ma",
+                15.383
+              ],
+              [
+                "Mn",
+                14.425999999999998
+              ]
+            ],
+            "run": 3
+          }
+        ]
+      }
+    },
+    "final": {
+      "browser": "157.0.8103.40",
+      "cpu": 4,
+      "network": {
+        "latency": 40,
+        "downloadMbps": 10,
+        "uploadMbps": 5
+      },
+      "viewport": [
+        1440,
+        1000
+      ],
+      "results": {
+        "load": [
+          {
+            "lcp": 7016,
+            "cls": 0,
+            "longestTask": 1599,
+            "blocking": 1621,
+            "longTasks": 4,
+            "eventDuration": 0,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 1031.2479999999998,
+            "layoutCount": 11,
+            "styleMs": 149.63399999999993,
+            "cpuTop": [
+              [
+                "(idle)",
+                3642.028000000002
+              ],
+              [
+                "(anonymous)",
+                1884.107000000003
+              ],
+              [
+                "(program)",
+                1796.7069999999949
+              ],
+              [
+                "requestAnimationFrame",
+                407.365
+              ],
+              [
+                "Fu",
+                103.683
+              ],
+              [
+                "appendChild",
+                51.815000000000005
+              ],
+              [
+                "zf",
+                51.36399999999999
+              ],
+              [
+                "(garbage collector)",
+                50.445999999999984
+              ],
+              [
+                "$e",
+                47.975
+              ],
+              [
+                "query",
+                44.687
+              ],
+              [
+                "collectRoots",
+                38.327
+              ],
+              [
+                "Za",
+                26.151
+              ],
+              [
+                "Fd",
+                22.562
+              ],
+              [
+                "xa",
+                20.212
+              ],
+              [
+                "qa",
+                19.782
+              ],
+              [
+                "createElement",
+                19.495000000000005
+              ],
+              [
+                "ma",
+                13.225000000000001
+              ],
+              [
+                "j",
+                12.983
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 7000,
+            "cls": 0,
+            "longestTask": 1549,
+            "blocking": 1558,
+            "longTasks": 4,
+            "eventDuration": 0,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 988.0980000000002,
+            "layoutCount": 11,
+            "styleMs": 147.537,
+            "cpuTop": [
+              [
+                "(idle)",
+                3892.8750000000005
+              ],
+              [
+                "(anonymous)",
+                1692.8179999999988
+              ],
+              [
+                "(program)",
+                1678.1920000000002
+              ],
+              [
+                "requestAnimationFrame",
+                422.29900000000026
+              ],
+              [
+                "Fu",
+                111.391
+              ],
+              [
+                "(garbage collector)",
+                44.400999999999996
+              ],
+              [
+                "appendChild",
+                44
+              ],
+              [
+                "zf",
+                41.921
+              ],
+              [
+                "query",
+                38.585
+              ],
+              [
+                "$e",
+                38.402999999999984
+              ],
+              [
+                "collectRoots",
+                35.69199999999999
+              ],
+              [
+                "computeElementStyleVisibilityVisible",
+                34.712
+              ],
+              [
+                "Fd",
+                23.487
+              ],
+              [
+                "qa",
+                23.118
+              ],
+              [
+                "j",
+                19.628
+              ],
+              [
+                "querySelectorAll",
+                15.148999999999997
+              ],
+              [
+                "Mn",
+                14.999000000000002
+              ],
+              [
+                "wd",
+                14.498
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 7024,
+            "cls": 0,
+            "longestTask": 1494,
+            "blocking": 1489,
+            "longTasks": 4,
+            "eventDuration": 0,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 963.843,
+            "layoutCount": 11,
+            "styleMs": 145.397,
+            "cpuTop": [
+              [
+                "(idle)",
+                3883.912999999999
+              ],
+              [
+                "(anonymous)",
+                1810.8399999999976
+              ],
+              [
+                "(program)",
+                1682.7469999999962
+              ],
+              [
+                "requestAnimationFrame",
+                404.70399999999995
+              ],
+              [
+                "Fu",
+                99.68399999999997
+              ],
+              [
+                "(garbage collector)",
+                50.284
+              ],
+              [
+                "zf",
+                41.919000000000004
+              ],
+              [
+                "collectRoots",
+                39.84
+              ],
+              [
+                "appendChild",
+                38.453
+              ],
+              [
+                "query",
+                36.889
+              ],
+              [
+                "$e",
+                36.215999999999994
+              ],
+              [
+                "Za",
+                21.668
+              ],
+              [
+                "Fd",
+                21.484999999999996
+              ],
+              [
+                "qa",
+                21.147000000000006
+              ],
+              [
+                "j",
+                19.488
+              ],
+              [
+                "createElement",
+                17.424
+              ],
+              [
+                "Mn",
+                17.131
+              ],
+              [
+                "querySelectorAll",
+                10.959999999999999
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "search": [
+          {
+            "lcp": 416,
+            "cls": 0.3579327759617935,
+            "longestTask": 258,
+            "blocking": 482,
+            "longTasks": 9,
+            "eventDuration": 248,
+            "resourceBytes": 7404442,
+            "cards": 340,
+            "layoutMs": 279.096,
+            "layoutCount": 40,
+            "styleMs": 15.194999999999997,
+            "cpuTop": [
+              [
+                "(program)",
+                1090.641
+              ],
+              [
+                "(idle)",
+                1039.4170000000001
+              ],
+              [
+                "(anonymous)",
+                216.9979999999999
+              ],
+              [
+                "Ll",
+                185.37099999999995
+              ],
+              [
+                "query",
+                105.44400000000002
+              ],
+              [
+                "getAriaRole",
+                104.435
+              ],
+              [
+                "getBoundingClientRect",
+                101.03500000000007
+              ],
+              [
+                "qa",
+                84.27199999999999
+              ],
+              [
+                "removeChild",
+                64.16400000000002
+              ],
+              [
+                "getExplicitAriaRole",
+                41.059000000000005
+              ],
+              [
+                "parentElementOrShadowHost",
+                37.18
+              ],
+              [
+                "Sd",
+                35.93699999999998
+              ],
+              [
+                "elementSafeTagName",
+                28.618000000000002
+              ],
+              [
+                "match",
+                27.194000000000003
+              ],
+              [
+                "querySelectorAll",
+                23.899
+              ],
+              [
+                "getAttribute",
+                23.145000000000003
+              ],
+              [
+                "oa",
+                17.777
+              ],
+              [
+                "(garbage collector)",
+                16.003000000000004
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 416,
+            "cls": 0.3579327759617935,
+            "longestTask": 155,
+            "blocking": 394,
+            "longTasks": 8,
+            "eventDuration": 248,
+            "resourceBytes": 7404442,
+            "cards": 340,
+            "layoutMs": 265.6240000000001,
+            "layoutCount": 40,
+            "styleMs": 15.179999999999998,
+            "cpuTop": [
+              [
+                "(idle)",
+                1054.4260000000004
+              ],
+              [
+                "(program)",
+                1041.3659999999977
+              ],
+              [
+                "(anonymous)",
+                209.64200000000002
+              ],
+              [
+                "Ll",
+                179.34400000000002
+              ],
+              [
+                "getAriaRole",
+                106.99899999999998
+              ],
+              [
+                "getBoundingClientRect",
+                95.35099999999998
+              ],
+              [
+                "query",
+                86.06400000000002
+              ],
+              [
+                "qa",
+                84.23599999999999
+              ],
+              [
+                "removeChild",
+                57.864
+              ],
+              [
+                "getExplicitAriaRole",
+                43.31
+              ],
+              [
+                "getAttribute",
+                33.692
+              ],
+              [
+                "oa",
+                31.563999999999997
+              ],
+              [
+                "Sd",
+                31.439999999999998
+              ],
+              [
+                "(garbage collector)",
+                25.246000000000002
+              ],
+              [
+                "parentElementOrShadowHost",
+                24.861000000000004
+              ],
+              [
+                "querySelectorAll",
+                21.746999999999996
+              ],
+              [
+                "elementSafeTagName",
+                20.910999999999994
+              ],
+              [
+                "match",
+                19.429000000000002
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 412,
+            "cls": 0.3579327759617935,
+            "longestTask": 146,
+            "blocking": 360,
+            "longTasks": 8,
+            "eventDuration": 240,
+            "resourceBytes": 7404442,
+            "cards": 340,
+            "layoutMs": 264.838,
+            "layoutCount": 40,
+            "styleMs": 12.573999999999998,
+            "cpuTop": [
+              [
+                "(program)",
+                1059.6699999999998
+              ],
+              [
+                "(idle)",
+                1052.753
+              ],
+              [
+                "(anonymous)",
+                211.22299999999993
+              ],
+              [
+                "Ll",
+                175.715
+              ],
+              [
+                "getAriaRole",
+                112.66400000000004
+              ],
+              [
+                "getBoundingClientRect",
+                97.675
+              ],
+              [
+                "qa",
+                87.128
+              ],
+              [
+                "query",
+                79.19399999999999
+              ],
+              [
+                "removeChild",
+                63.51000000000001
+              ],
+              [
+                "elementSafeTagName",
+                38.26200000000001
+              ],
+              [
+                "Sd",
+                36.749
+              ],
+              [
+                "getExplicitAriaRole",
+                32.35
+              ],
+              [
+                "querySelectorAll",
+                24.125999999999998
+              ],
+              [
+                "match",
+                23.747
+              ],
+              [
+                "(garbage collector)",
+                20.696999999999996
+              ],
+              [
+                "parentElementOrShadowHost",
+                20.025999999999996
+              ],
+              [
+                "getAttribute",
+                19.732000000000003
+              ],
+              [
+                "dispatchEvent",
+                19.118
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "favorite": [
+          {
+            "lcp": 416,
+            "cls": 0,
+            "longestTask": 117,
+            "blocking": 67,
+            "longTasks": 1,
+            "eventDuration": 176,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 19.426000000000002,
+            "layoutCount": 2,
+            "styleMs": 5.439,
+            "cpuTop": [
+              [
+                "(program)",
+                527.5839999999997
+              ],
+              [
+                "(idle)",
+                417.084
+              ],
+              [
+                "elementsFromPoint",
+                25.748
+              ],
+              [
+                "(anonymous)",
+                24.361
+              ],
+              [
+                "elementFromPoint",
+                9.639999999999999
+              ],
+              [
+                "querySelectorAll",
+                7.1819999999999995
+              ],
+              [
+                "evaluate",
+                1.6
+              ],
+              [
+                "Fu",
+                1.539
+              ],
+              [
+                "serialize",
+                1.493
+              ],
+              [
+                "Ca",
+                1.384
+              ],
+              [
+                "Gs",
+                1.254
+              ],
+              [
+                "Jn",
+                1.252
+              ],
+              [
+                "requestAnimationFrame",
+                1.072
+              ],
+              [
+                "a",
+                0.902
+              ],
+              [
+                "$e",
+                0.795
+              ],
+              [
+                "checkElementStates",
+                0.787
+              ],
+              [
+                "da",
+                0.785
+              ],
+              [
+                "Hd",
+                0.765
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 408,
+            "cls": 0,
+            "longestTask": 118,
+            "blocking": 68,
+            "longTasks": 1,
+            "eventDuration": 168,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 22.102000000000004,
+            "layoutCount": 2,
+            "styleMs": 3.776,
+            "cpuTop": [
+              [
+                "(program)",
+                477.5109999999998
+              ],
+              [
+                "(idle)",
+                434.402
+              ],
+              [
+                "(anonymous)",
+                27.704000000000004
+              ],
+              [
+                "elementsFromPoint",
+                23.087000000000003
+              ],
+              [
+                "elementFromPoint",
+                12.378000000000002
+              ],
+              [
+                "querySelectorAll",
+                7.093000000000001
+              ],
+              [
+                "la",
+                1.618
+              ],
+              [
+                "Ca",
+                1.304
+              ],
+              [
+                "Rf",
+                1.253
+              ],
+              [
+                "lr",
+                1.25
+              ],
+              [
+                "evaluate",
+                1.206
+              ],
+              [
+                "getElementComputedStyle",
+                1.169
+              ],
+              [
+                "setupHitTargetInterceptor",
+                1.117
+              ],
+              [
+                "Gs",
+                1.115
+              ],
+              [
+                "da",
+                0.86
+              ],
+              [
+                "at",
+                0.808
+              ],
+              [
+                "dispatchEvent",
+                0.647
+              ],
+              [
+                "ln",
+                0.631
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 416,
+            "cls": 0,
+            "longestTask": 129,
+            "blocking": 79,
+            "longTasks": 1,
+            "eventDuration": 176,
+            "resourceBytes": 7404442,
+            "cards": 2000,
+            "layoutMs": 18.365000000000002,
+            "layoutCount": 2,
+            "styleMs": 5.170000000000001,
+            "cpuTop": [
+              [
+                "(program)",
+                491.35999999999956
+              ],
+              [
+                "(idle)",
+                455.867
+              ],
+              [
+                "elementsFromPoint",
+                26.618000000000002
+              ],
+              [
+                "(anonymous)",
+                25.481000000000005
+              ],
+              [
+                "elementFromPoint",
+                11.738999999999999
+              ],
+              [
+                "querySelectorAll",
+                5.776
+              ],
+              [
+                "query",
+                1.699
+              ],
+              [
+                "da",
+                1.542
+              ],
+              [
+                "a",
+                1.332
+              ],
+              [
+                "getImplicitAriaRole",
+                1.29
+              ],
+              [
+                "R",
+                1.282
+              ],
+              [
+                "Hd",
+                1.249
+              ],
+              [
+                "Gs",
+                1.221
+              ],
+              [
+                "Jn",
+                1.065
+              ],
+              [
+                "evaluate",
+                1.018
+              ],
+              [
+                "Md",
+                0.812
+              ],
+              [
+                "eval",
+                0.762
+              ],
+              [
+                "Uf",
+                0.75
+              ]
+            ],
+            "run": 3
+          }
+        ],
+        "scroll": [
+          {
+            "lcp": 412,
+            "cls": 0.0018094324634693286,
+            "longestTask": 180,
+            "blocking": 893,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 12799164,
+            "cards": 2000,
+            "layoutMs": 465.111,
+            "layoutCount": 32,
+            "styleMs": 19.966999999999995,
+            "cpuTop": [
+              [
+                "(program)",
+                1570.0680000000002
+              ],
+              [
+                "(idle)",
+                756.6700000000002
+              ],
+              [
+                "(anonymous)",
+                361.11199999999997
+              ],
+              [
+                "getBoundingClientRect",
+                90.22900000000003
+              ],
+              [
+                "remove",
+                18.233000000000004
+              ],
+              [
+                "add",
+                18.034999999999997
+              ],
+              [
+                "Vd",
+                16.789
+              ],
+              [
+                "toggle",
+                5.768000000000001
+              ],
+              [
+                "querySelectorAll",
+                2.048
+              ],
+              [
+                "requestAnimationFrame",
+                1.77
+              ],
+              [
+                "innerSerialize",
+                1.333
+              ],
+              [
+                "isTypedArray",
+                1.309
+              ],
+              [
+                "serialize",
+                1.153
+              ],
+              [
+                "E",
+                0.989
+              ],
+              [
+                "bl",
+                0.899
+              ],
+              [
+                "j",
+                -0.032
+              ],
+              [
+                "isError",
+                -0.233
+              ],
+              [
+                "scrollBy",
+                -0.996
+              ]
+            ],
+            "run": 1
+          },
+          {
+            "lcp": 412,
+            "cls": 0.0018094324634693286,
+            "longestTask": 184,
+            "blocking": 887,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 12799164,
+            "cards": 2000,
+            "layoutMs": 472.51700000000005,
+            "layoutCount": 32,
+            "styleMs": 16.993000000000002,
+            "cpuTop": [
+              [
+                "(program)",
+                1565.5240000000022
+              ],
+              [
+                "(idle)",
+                749.5960000000002
+              ],
+              [
+                "(anonymous)",
+                371.5829999999995
+              ],
+              [
+                "getBoundingClientRect",
+                85.39900000000003
+              ],
+              [
+                "Vd",
+                19.4
+              ],
+              [
+                "add",
+                18.376
+              ],
+              [
+                "remove",
+                17.199
+              ],
+              [
+                "toggle",
+                5.470000000000001
+              ],
+              [
+                "querySelectorAll",
+                2.391
+              ],
+              [
+                "innerSerialize",
+                0.796
+              ],
+              [
+                "evaluate",
+                0.697
+              ],
+              [
+                "isTypedArray",
+                0.465
+              ],
+              [
+                "requestAnimationFrame",
+                0.2880000000000001
+              ],
+              [
+                "vu",
+                -0.047
+              ]
+            ],
+            "run": 2
+          },
+          {
+            "lcp": 412,
+            "cls": 0.0018094324634693286,
+            "longestTask": 219,
+            "blocking": 993,
+            "longTasks": 12,
+            "eventDuration": 0,
+            "resourceBytes": 12799164,
+            "cards": 2000,
+            "layoutMs": 508.1199999999998,
+            "layoutCount": 32,
+            "styleMs": 19.532,
+            "cpuTop": [
+              [
+                "(program)",
+                1645.402000000002
+              ],
+              [
+                "(idle)",
+                658.8610000000002
+              ],
+              [
+                "(anonymous)",
+                390.82299999999964
+              ],
+              [
+                "getBoundingClientRect",
+                87.162
+              ],
+              [
+                "add",
+                19.296000000000003
+              ],
+              [
+                "remove",
+                18.716
+              ],
+              [
+                "Vd",
+                15.813
+              ],
+              [
+                "toggle",
+                7.251999999999999
+              ],
+              [
+                "requestAnimationFrame",
+                1.9439999999999997
+              ],
+              [
+                "E",
+                1.527
+              ],
+              [
+                "querySelectorAll",
+                1.13
+              ],
+              [
+                "evaluate",
+                0.692
+              ]
+            ],
+            "run": 3
+          }
+        ]
+      }
+    }
+  },
+  "lighthouse": {
+    "baseline": [
+      {
+        "run": 1,
+        "score": 4,
+        "lcp": 8862.824,
+        "cls": 0.5811848958333333,
+        "tbt": 2414.462999999999,
+        "fcp": 3263.813,
+        "bytes": 23021011
+      },
+      {
+        "run": 2,
+        "score": 4,
+        "lcp": 8781.168,
+        "cls": 0.5811848958333333,
+        "tbt": 2421.048999999993,
+        "fcp": 3249.677,
+        "bytes": 23021011
+      },
+      {
+        "run": 3,
+        "score": 4,
+        "lcp": 8801.329,
+        "cls": 0.5811848958333333,
+        "tbt": 2487.293000000005,
+        "fcp": 2787.753,
+        "bytes": 23021011
+      }
+    ],
+    "final": [
+      {
+        "run": 1,
+        "score": 50,
+        "lcp": 6706.079,
+        "cls": 0,
+        "tbt": 284.4869995117192,
+        "fcp": 1923.034,
+        "bytes": 7409325
+      },
+      {
+        "run": 2,
+        "score": 53,
+        "lcp": 6735.812,
+        "cls": 0,
+        "tbt": 224.55200000000036,
+        "fcp": 1968.39,
+        "bytes": 7409325
+      },
+      {
+        "run": 3,
+        "score": 54,
+        "lcp": 6734.374,
+        "cls": 0,
+        "tbt": 213.51800000000048,
+        "fcp": 1937.901,
+        "bytes": 7409325
+      }
+    ]
+  },
+  "checkedNotChanged": {
+    "subjectMs": [
+      0.060499999523162845,
+      0.05400000095367432,
+      0.05450000047683716
+    ],
+    "referenceMs": [
+      0.09999990463256836,
+      0.9000000953674316,
+      1
+    ],
+    "subjectCount": 12
+  },
+  "reactProfiler": {
+    "baseline": [
+      {
+        "run": 1,
+        "cardCommits": 2000,
+        "renderedCards": 2000,
+        "appDuration": 1476.4999980926514
+      },
+      {
+        "run": 2,
+        "cardCommits": 2000,
+        "renderedCards": 2000,
+        "appDuration": 1467.0000023841858
+      },
+      {
+        "run": 3,
+        "cardCommits": 2000,
+        "renderedCards": 2000,
+        "appDuration": 1463.2000007629395
+      }
+    ],
+    "renders": [
+      {
+        "run": 1,
+        "cardCommits": 1,
+        "renderedCards": 1,
+        "appDuration": 20.90000009536743
+      },
+      {
+        "run": 2,
+        "cardCommits": 1,
+        "renderedCards": 1,
+        "appDuration": 20.300000190734863
+      },
+      {
+        "run": 3,
+        "cardCommits": 1,
+        "renderedCards": 1,
+        "appDuration": 19.59999990463257
+      }
+    ]
+  }
+}
