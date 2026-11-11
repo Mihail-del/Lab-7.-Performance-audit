@@ -11,7 +11,7 @@ export default function TutorList({
   style,
 }) {
   const containerRef = useRef(null);
-  useBioClamp(containerRef, [tutors]);
+  useBioClamp(containerRef, [tutors, selectedId]);
 
   return (
     <div className="tutor-grid" ref={containerRef} style={style}>
@@ -21,8 +21,8 @@ export default function TutorList({
           tutor={tutor}
           isFavorite={favorites.includes(tutor.id)}
           isSelected={tutor.id === selectedId}
-          onSelect={() => onSelect(tutor.id)}
-          onToggleFavorite={() => onToggleFavorite(tutor.id)}
+          onSelect={onSelect}
+          onToggleFavorite={onToggleFavorite}
         />
       ))}
     </div>
