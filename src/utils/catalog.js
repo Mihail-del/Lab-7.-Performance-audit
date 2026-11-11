@@ -10,7 +10,6 @@ export const SORT_OPTIONS = [
 ];
 
 const comparators = {
-  recommended: (a, b) => tutorScore(b) - tutorScore(a),
   'price-asc': (a, b) => a.pricePerHour - b.pricePerHour,
   'price-desc': (a, b) => b.pricePerHour - a.pricePerHour,
   experience: (a, b) => b.experienceYears - a.experienceYears,
@@ -34,5 +33,12 @@ export function applyFilters(list, filters) {
 
 export function getVisibleTutors(list, { query, filters, sortBy }) {
   const result = applyFilters(list, filters).filter((tutor) => matchesQuery(tutor, query));
-  return result.sort(comparators[sortBy] || comparators.recommended);
+  const compare = comparators[sortBy];
+  if (compare) return result.sort(compare);
+
+  // Оцінка залежить лише від репетитора, тому рахуємо її до сортування.
+  return result
+    .map((tutor) => ({ tutor, score: tutorScore(tutor) }))
+    .sort((a, b) => b.score - a.score)
+    .map(({ tutor }) => tutor);
 }

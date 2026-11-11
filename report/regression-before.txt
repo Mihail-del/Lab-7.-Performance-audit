@@ -1,0 +1,32 @@
+
+> tutor-catalog@0.3.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /Users/mykhailopulov/Documents/NaUKMA/YearTwo/WebDevelopmentToolsandPrinciples/lab7
+
+ ✓ src/__tests__/SearchBar.test.jsx (1 test) 24ms
+ ❯ src/__tests__/Catalog.test.js (1 test | 1 failed) 9ms
+   × Сортування рекомендацій > рахує оцінку кожного репетитора один раз і зберігає порядок 8ms
+     → expected "tutorScore" to be called 40 times, but got 320 times
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/Catalog.test.js > Сортування рекомендацій > рахує оцінку кожного репетитора один раз і зберігає порядок
+AssertionError: expected "tutorScore" to be called 40 times, but got 320 times
+ ❯ src/__tests__/Catalog.test.js:23:24
+     21| 
+     22|     expect(result.map((t) => t.id)).toEqual(expected.map((t) => t.id));
+     23|     expect(tutorScore).toHaveBeenCalledTimes(tutors.length);
+       |                        ^
+     24|     expect(tutors.map((t) => t.id)).toEqual(Array.from({ length: 40 },…
+     25|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 1 passed (2)
+   Start at  00:00:44
+   Duration  824ms (transform 43ms, setup 142ms, collect 78ms, tests 32ms, environment 608ms, prepare 114ms)
+

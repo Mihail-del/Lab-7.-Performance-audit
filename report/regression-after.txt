@@ -1,0 +1,15 @@
+
+> tutor-catalog@0.3.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /Users/mykhailopulov/Documents/NaUKMA/YearTwo/WebDevelopmentToolsandPrinciples/lab7
+
+ ✓ src/__tests__/Catalog.test.js (1 test) 6ms
+ ✓ src/__tests__/SearchBar.test.jsx (1 test) 28ms
+
+ Test Files  2 passed (2)
+      Tests  2 passed (2)
+   Start at  00:09:13
+   Duration  811ms (transform 70ms, setup 310ms, collect 107ms, tests 34ms, environment 560ms, prepare 136ms)
+
