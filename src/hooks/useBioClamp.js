@@ -8,23 +8,36 @@ export function useBioClamp(containerRef, deps) {
   useLayoutEffect(() => {
     const container = containerRef.current;
     if (!container) return undefined;
+    let frame = 0;
+    const bios = [...container.querySelectorAll('.tutor-card__bio')];
 
     const update = () => {
-      container.querySelectorAll('.tutor-card__bio').forEach((bio) => {
-        if (!isInViewport(bio.getBoundingClientRect())) return;
-        bio.classList.remove('is-clamped');
-        const fullHeight = bio.offsetHeight;
-        bio.classList.add('is-clamped');
-        bio.closest('.tutor-card').classList.toggle('has-more', fullHeight > bio.offsetHeight + 1);
+      // Спочатку читаємо розміри, потім змінюємо класи всіх видимих описів.
+      const visible = bios.filter((bio) => isInViewport(bio.getBoundingClientRect()));
+      visible.forEach((bio) => bio.classList.remove('is-clamped'));
+      const fullHeights = visible.map((bio) => bio.offsetHeight);
+      visible.forEach((bio) => bio.classList.add('is-clamped'));
+      const clampedHeights = visible.map((bio) => bio.offsetHeight);
+      visible.forEach((bio, i) => {
+        bio.closest('.tutor-card').classList.toggle('has-more', fullHeights[i] > clampedHeights[i] + 1);
+      });
+    };
+
+    const scheduleUpdate = () => {
+      if (frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        update();
       });
     };
 
     update();
-    window.addEventListener('scroll', update);
-    window.addEventListener('resize', update);
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate);
     return () => {
-      window.removeEventListener('scroll', update);
-      window.removeEventListener('resize', update);
+      cancelAnimationFrame(frame);
+      window.removeEventListener('scroll', scheduleUpdate);
+      window.removeEventListener('resize', scheduleUpdate);
     };
   }, deps);
 }
